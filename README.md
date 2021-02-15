@@ -21,7 +21,9 @@ Some important arguments:
 
 - `lr_lambda` It specifics the value of lambda to balance the U-I and R-E mutual information. 
 
-- `num_sample` This parameter indicates the number of negative sampling. 
+- `num_neg` This parameter indicates the number of negative sampling. 
+
+- `num_sample` This parameter indicates the probability of hybrid contrastive training. 
 
 - `temp_value` It specifics the temprature value in density ratio functions.
 
